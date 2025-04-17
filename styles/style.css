@@ -12,7 +12,6 @@
   justify-self: start;
   font-style: normal;
   width: 391.48px;
-  left: 50px;
   text-underline-offset: 5px;
 }
 
@@ -68,7 +67,7 @@
   background-image: url(../images/cover.jpg);
   background-position: center;
   background-size: cover;
-  z-index: -1;
+  z-index: 1;
   min-height: 757px;
 }
 
@@ -244,11 +243,10 @@
   display: grid;
   max-width: 1100px;
   grid-template-columns: 334px 1fr;
-  margin-top: 170px;
+  margin-top: 154px;
 }
 
 .about__logo {
-  margin-top: 165px;
   margin-left: 71px;
   background-color: rgb(0 0 0);
   width: 240px;
@@ -266,7 +264,7 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-top: 265px;
+  margin-top: 101px;
   margin-left: 50px;
 }
 
